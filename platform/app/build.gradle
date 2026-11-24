@@ -8,14 +8,14 @@ else {
 }
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 32
     defaultConfig {
         if (buildAsApplication) {
             applicationId "com.maniscat2.sm64coopdx"
         }
         multiDexEnabled false
         minSdkVersion 24
-        targetSdkVersion 33
+        targetSdkVersion 32
         versionCode 41
         versionName "1.4"
         ndk {
